@@ -17,7 +17,7 @@ typedef struct prints
 {
 char *symbol;
 int(*func)(va_list);
-} prints_t;
+}prints_t;
 
 int checker(const char *format, prints_t func_list[], va_list arg_list);
 int _printf(const char *format, ...);
